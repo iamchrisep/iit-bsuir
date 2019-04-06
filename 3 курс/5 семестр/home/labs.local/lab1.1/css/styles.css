@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+body {
+	color: black;
+	background:#ffffff; 
+	margin: 0;
+	padding: 0; 
+	font-family: Arial, "sans-serif"; 
+	font-size: 12px;
+}
+
+img {border:none;}
+form {margin:0;padding:0;}
+
+a:link,
+a:visited {color: #000000; text-decoration: none;}
+a:hover,
+a:active {color: #364dda; text-decoration: none; }
+
+#container {
+	width: 1280px;
+}
+
+.header {
+	text-align: center;
+	background-color: #a8ddff;
+}
+.navigation {
+	text-align: right;
+	background-color: #a8ddff;
+	border-bottom : 1px solid blue;
+}
+
+.main-block {
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	padding: 0px; /* Поля вокруг текста */
+	margin: 0 0 0 0; /* Значение отступов */
+}
+
+.main_panel {
+	background-color: #edf8ff;
+}
+
+.left_panel {
+	background: url(../graphics/image6.jpg) repeat-y;
+	background-color: #cdebff;
+	/*float: left;*/
+	width: 245px;
+	height: 630px;
+	/*z-index: 5;*/
+	padding: 0px; /* Поля вокруг текста */
+    margin: 0 0 0 0; /* Значение отступов */
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+}
+
+.text1 {
+	padding: 7px; /* Поля вокруг текста */
+	display: inline-block;
+	position: relative;
+	width: 700px;
+	vertical-align: top;
+	margin: 0;
+}
+
+.right_panel {
+	min-width: 310px;
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	/*float: right;*/
+	min-height: 570px;
+	
+}
+.address {
+	background-color: #0400b0;
+	text-align: center;
+	font-weight:bold; 
+	color:#fff;
+	padding: 0px; /* Поля вокруг текста */
+    margin: 0; /* Значение отступов */
+	border: 0;
+}
+
+.newsmenu {font-size:14px; list-style-image:url(../graphics/image4.jpg); margin-left:10px; padding-left:10px; margin-top:5px; padding-top:5px; font-weight:bold; }
+.newsmenu li {margin-bottom: 25px;}
+.newsmenu .date {font-weight:normal;}
+
+.bottom_panel {
+	text-align: center;
+	/*z-index: 10;*/
+	background-color: #cdebff;
+}
+
+.menu_panel {
+	border-bottom : 2px solid blue;
+}
+
+.mainmenu {font-size:16px; list-style:none; margin-left:10px; padding-left:10px; margin-top:5px; padding-top:5px; font-weight:bold; }
+.mainmenuin1 {font-size:14px; list-style:none; margin-left:10px; padding-left:10px}
+.mainmenuin2 {font-size:12px; list-style:none; margin-left:10px; padding-left:10px}
+.mainmenu li {padding-top: 2px; margin-top: 2px;}
+
+.formf1 {background-color:#cdebff; border-style:solid; border-width:1px; border-color:#DADADA; border-width:thin;}
+
+h4 {font-size: 16px;}

@@ -1,0 +1,131 @@
+E:\WorkMaterials\ИОФС\l1\l1\bin\Debug\l1.exe
+E:\WorkMaterials\ИОФС\l1\l1\bin\Debug\l1.pdb
+E:\WorkMaterials\ИОФС\l1\l1\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\WorkMaterials\ИОФС\l1\l1\obj\x86\Debug\l1.Form1.resources
+E:\WorkMaterials\ИОФС\l1\l1\obj\x86\Debug\l1.Properties.Resources.resources
+E:\WorkMaterials\ИОФС\l1\l1\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\WorkMaterials\ИОФС\l1\l1\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\WorkMaterials\ИОФС\l1\l1\obj\x86\Debug\l1.exe
+E:\WorkMaterials\ИОФС\l1\l1\obj\x86\Debug\l1.pdb
+D:\Учеба\Коренская\downloaded\l1\l1\obj\x86\Debug\l1.exe
+D:\Учеба\Коренская\downloaded\l1\l1\obj\x86\Debug\l1.pdb
+D:\Учеба\Коренская\downloaded\l1\l1\bin\Debug\l1.exe
+D:\Учеба\Коренская\downloaded\l1\l1\bin\Debug\l1.pdb
+D:\Учеба\Коренская\downloaded\l1\l1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Учеба\Коренская\downloaded\l1\l1\obj\x86\Debug\l1.Form1.resources
+D:\Учеба\Коренская\downloaded\l1\l1\obj\x86\Debug\l1.Properties.Resources.resources
+D:\Учеба\Коренская\downloaded\l1\l1\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Учеба\Коренская\downloaded\l1\l1\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\Учеба ИИТ\4 курс 1 семестр\Информация\Коренская\ИОбФС\downloaded\l1\l1\obj\x86\Debug\l1.exe
+d:\Учеба ИИТ\4 курс 1 семестр\Информация\Коренская\ИОбФС\downloaded\l1\l1\obj\x86\Debug\l1.pdb
+d:\Учеба ИИТ\4 курс 1 семестр\Информация\Коренская\ИОбФС\downloaded\l1\l1\bin\Debug\l1.exe
+d:\Учеба ИИТ\4 курс 1 семестр\Информация\Коренская\ИОбФС\downloaded\l1\l1\bin\Debug\l1.pdb
+d:\Учеба ИИТ\4 курс 1 семестр\Информация\Коренская\ИОбФС\downloaded\l1\l1\obj\x86\Debug\l1.Form1.resources
+d:\Учеба ИИТ\4 курс 1 семестр\Информация\Коренская\ИОбФС\downloaded\l1\l1\obj\x86\Debug\l1.Properties.Resources.resources
+d:\Учеба ИИТ\4 курс 1 семестр\Информация\Коренская\ИОбФС\downloaded\l1\l1\obj\x86\Debug\l1.csproj.GenerateResource.Cache
+d:\Учеба ИИТ\4 курс 1 семестр\ОerpС\l1\l1\obj\x86\Debug\l1.exe
+d:\Учеба ИИТ\4 курс 1 семестр\ОerpС\l1\l1\obj\x86\Debug\l1.pdb
+d:\Учеба ИИТ\4 курс 1 семестр\ОerpС\l1\l1\bin\Debug\l1.exe
+d:\Учеба ИИТ\4 курс 1 семестр\ОerpС\l1\l1\bin\Debug\l1.pdb
+d:\Учеба ИИТ\4 курс 1 семестр\ОerpС\l1\l1\obj\x86\Debug\l1.Form1.resources
+d:\Учеба ИИТ\4 курс 1 семестр\ОerpС\l1\l1\obj\x86\Debug\l1.Properties.Resources.resources
+d:\Учеба ИИТ\4 курс 1 семестр\ОerpС\l1\l1\obj\x86\Debug\l1.csproj.GenerateResource.Cache
+d:\Учеба ИИТ\4 курс 1 семестр\ОerpС\l1\l1\obj\x86\Debug\l1.csprojResolveAssemblyReference.cache
+E:\ОerpС\l1\l1\obj\x86\Debug\l1.exe
+E:\ОerpС\l1\l1\obj\x86\Debug\l1.pdb
+E:\ОerpС\l1\l1\bin\Debug\l1.exe
+E:\ОerpС\l1\l1\bin\Debug\l1.pdb
+E:\ОerpС\l1\l1\obj\x86\Debug\l1.csprojResolveAssemblyReference.cache
+E:\ОerpС\l1\l1\obj\x86\Debug\l1.Form1.resources
+E:\ОerpС\l1\l1\obj\x86\Debug\l1.Properties.Resources.resources
+E:\ОerpС\l1\l1\obj\x86\Debug\l1.csproj.GenerateResource.Cache
+D:\Study, bitch =_=''\Универ\4 курс\l1\l1\obj\x86\Debug\l1.exe
+D:\Study, bitch =_=''\Универ\4 курс\l1\l1\obj\x86\Debug\l1.pdb
+D:\Study, bitch =_=''\Универ\4 курс\l1\l1\bin\Debug\l1.exe
+D:\Study, bitch =_=''\Универ\4 курс\l1\l1\bin\Debug\l1.pdb
+D:\Study, bitch =_=''\Универ\4 курс\l1\l1\obj\x86\Debug\l1.csprojResolveAssemblyReference.cache
+D:\Study, bitch =_=''\Универ\4 курс\l1\l1\obj\x86\Debug\l1.Form1.resources
+D:\Study, bitch =_=''\Универ\4 курс\l1\l1\obj\x86\Debug\l1.Properties.Resources.resources
+D:\Study, bitch =_=''\Универ\4 курс\l1\l1\obj\x86\Debug\l1.csproj.GenerateResource.Cache
+G:\4 курс\l1\l1\obj\x86\Debug\l1.exe
+G:\4 курс\l1\l1\obj\x86\Debug\l1.pdb
+G:\4 курс\l1\l1\bin\Debug\l1.exe
+G:\4 курс\l1\l1\bin\Debug\l1.pdb
+G:\4 курс\l1\l1\obj\x86\Debug\l1.csprojResolveAssemblyReference.cache
+G:\4 курс\l1\l1\obj\x86\Debug\l1.Form1.resources
+G:\4 курс\l1\l1\obj\x86\Debug\l1.Properties.Resources.resources
+G:\4 курс\l1\l1\obj\x86\Debug\l1.csproj.GenerateResource.Cache
+G:\4 курс\l1\l1\obj\x86\Debug\l1.Form2.resources
+G:\4 курс\l1\l1\obj\x86\Debug\l1.Graph1.resources
+G:\4 курс\l1\l1\obj\x86\Debug\l1.GridForm.resources
+G:\4 курс\l1\l1\obj\x86\Debug\l1.Graph2.resources
+G:\4 курс\l1\l1\bin\Debug\l1.exe.config
+F:\4 курс\l1\l1\bin\Debug\l1.exe.config
+F:\4 курс\l1\l1\obj\x86\Debug\l1.exe
+F:\4 курс\l1\l1\obj\x86\Debug\l1.pdb
+F:\4 курс\l1\l1\bin\Debug\l1.exe
+F:\4 курс\l1\l1\bin\Debug\l1.pdb
+F:\4 курс\l1\l1\obj\x86\Debug\l1.csprojResolveAssemblyReference.cache
+F:\4 курс\l1\l1\obj\x86\Debug\l1.Form1.resources
+F:\4 курс\l1\l1\obj\x86\Debug\l1.Form2.resources
+F:\4 курс\l1\l1\obj\x86\Debug\l1.Graph1.resources
+F:\4 курс\l1\l1\obj\x86\Debug\l1.Graph2.resources
+F:\4 курс\l1\l1\obj\x86\Debug\l1.GridForm.resources
+F:\4 курс\l1\l1\obj\x86\Debug\l1.Properties.Resources.resources
+F:\4 курс\l1\l1\obj\x86\Debug\l1.csproj.GenerateResource.Cache
+C:\Users\hp\Downloads\Lel\4 курс\l1\l1\bin\Debug\l1.exe.config
+C:\Users\hp\Downloads\Lel\4 курс\l1\l1\obj\x86\Debug\l1.exe
+C:\Users\hp\Downloads\Lel\4 курс\l1\l1\obj\x86\Debug\l1.pdb
+C:\Users\hp\Downloads\Lel\Renata\l1\l1\bin\Debug\l1.exe.config
+C:\Users\hp\Downloads\Lel\Renata\l1\l1\obj\x86\Debug\l1.exe
+C:\Users\hp\Downloads\Lel\Renata\l1\l1\obj\x86\Debug\l1.pdb
+D:\Renata\l1\l1\bin\Debug\l1.exe.config
+D:\Renata\l1\l1\obj\x86\Debug\l1.exe
+D:\Renata\l1\l1\obj\x86\Debug\l1.pdb
+D:\Renata\l1\l1\obj\x86\Debug\l1.csprojResolveAssemblyReference.cache
+D:\Renata\l1\l1\obj\x86\Debug\l1.Form1.resources
+D:\Renata\l1\l1\obj\x86\Debug\l1.Form2.resources
+D:\Renata\l1\l1\obj\x86\Debug\l1.Graph1.resources
+D:\Renata\l1\l1\obj\x86\Debug\l1.Graph2.resources
+D:\Renata\l1\l1\obj\x86\Debug\l1.GridForm.resources
+D:\Renata\l1\l1\obj\x86\Debug\l1.Properties.Resources.resources
+D:\Renata\l1\l1\obj\x86\Debug\l1.csproj.GenerateResource.Cache
+D:\Renata\l1\l1\bin\Debug\l1.exe
+D:\Renata\l1\l1\bin\Debug\l1.pdb
+D:\Renata\zad1\l1\bin\Debug\l1.exe.config
+D:\Renata\zad1\l1\obj\x86\Debug\l1.exe
+D:\Renata\zad1\l1\obj\x86\Debug\l1.pdb
+D:\Renata\zad1\l1\bin\Debug\l1.exe
+D:\Renata\zad1\l1\bin\Debug\l1.pdb
+D:\Renata\zad1\l1\obj\x86\Debug\l1.csprojResolveAssemblyReference.cache
+D:\Renata\zad1\l1\obj\x86\Debug\l1.Form1.resources
+D:\Renata\zad1\l1\obj\x86\Debug\l1.Form2.resources
+D:\Renata\zad1\l1\obj\x86\Debug\l1.Graph1.resources
+D:\Renata\zad1\l1\obj\x86\Debug\l1.Graph2.resources
+D:\Renata\zad1\l1\obj\x86\Debug\l1.GridForm.resources
+D:\Renata\zad1\l1\obj\x86\Debug\l1.Properties.Resources.resources
+D:\Renata\zad1\l1\obj\x86\Debug\l1.csproj.GenerateResource.Cache
+D:\Сессия\Основы ERP-систем\zad1\l1\bin\Debug\l1.exe.config
+D:\Сессия\Основы ERP-систем\zad1\l1\obj\x86\Debug\l1.exe
+D:\Сессия\Основы ERP-систем\zad1\l1\obj\x86\Debug\l1.pdb
+D:\Сессия\Основы ERP-систем\zad1\l1\bin\Debug\l1.exe
+D:\Сессия\Основы ERP-систем\zad1\l1\bin\Debug\l1.pdb
+D:\Сессия\Основы ERP-систем\zad1\l1\obj\x86\Debug\l1.csprojResolveAssemblyReference.cache
+D:\Сессия\Основы ERP-систем\zad1\l1\obj\x86\Debug\l1.Form1.resources
+D:\Сессия\Основы ERP-систем\zad1\l1\obj\x86\Debug\l1.Form2.resources
+D:\Сессия\Основы ERP-систем\zad1\l1\obj\x86\Debug\l1.Graph1.resources
+D:\Сессия\Основы ERP-систем\zad1\l1\obj\x86\Debug\l1.Graph2.resources
+D:\Сессия\Основы ERP-систем\zad1\l1\obj\x86\Debug\l1.GridForm.resources
+D:\Сессия\Основы ERP-систем\zad1\l1\obj\x86\Debug\l1.Properties.Resources.resources
+D:\Сессия\Основы ERP-систем\zad1\l1\obj\x86\Debug\l1.csproj.GenerateResource.Cache
+E:\БГУИР\IOFS\Osnovy_ERP-sistem\zad1\l1\bin\Debug\l1.exe.config
+E:\БГУИР\IOFS\Osnovy_ERP-sistem\zad1\l1\obj\x86\Debug\l1.exe
+E:\БГУИР\IOFS\Osnovy_ERP-sistem\zad1\l1\obj\x86\Debug\l1.pdb
+E:\БГУИР\IOFS\Osnovy_ERP-sistem\zad1\l1\obj\x86\Debug\l1.csprojResolveAssemblyReference.cache
+E:\БГУИР\IOFS\Osnovy_ERP-sistem\zad1\l1\obj\x86\Debug\l1.Form1.resources
+E:\БГУИР\IOFS\Osnovy_ERP-sistem\zad1\l1\obj\x86\Debug\l1.Form2.resources
+E:\БГУИР\IOFS\Osnovy_ERP-sistem\zad1\l1\obj\x86\Debug\l1.Graph1.resources
+E:\БГУИР\IOFS\Osnovy_ERP-sistem\zad1\l1\obj\x86\Debug\l1.Graph2.resources
+E:\БГУИР\IOFS\Osnovy_ERP-sistem\zad1\l1\obj\x86\Debug\l1.GridForm.resources
+E:\БГУИР\IOFS\Osnovy_ERP-sistem\zad1\l1\obj\x86\Debug\l1.Properties.Resources.resources
+E:\БГУИР\IOFS\Osnovy_ERP-sistem\zad1\l1\obj\x86\Debug\l1.csproj.GenerateResource.Cache

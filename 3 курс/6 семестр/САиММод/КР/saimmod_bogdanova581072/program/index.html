@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>САиММод Богданова 581072</title>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+</head>
+
+<body>
+    <nav class="lime black-text">
+        <div class="nav-wrapper container">
+            <span id="logo-container" class="brand-logo black-text">
+                <b>Богданова К.Е., 581072, вариант 3</b>
+            </span>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="section" id="index-banner">
+            <div class="container">
+                <h4 class="header center amber-text">Исследование дискретно-стохастической СМО</h4>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section">
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center blue-text"><i class="material-icons">transfer_within_a_station</i></h2>
+                        <h5 class="center">Абсолютная пропускная способность <b>A</b></h5>
+                        <h2 id="A" class="center thin">0.085</h2>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center green-text"><i class="material-icons">people</i></h2>
+                        <h5 class="center">Средняя длина очереди <b>L<sub>оч</sub></b></h5>
+                        <h2 id="L" class="center thin">0.000</h2>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h2 class="center red-text"><i class="material-icons">access_time</i></h2>
+                        <h5 class="center">Среднее время пребывания заявки в очереди <b>W<sub>оч</sub></b></h5>
+                        <h2 id="W" class="center thin">0.000</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <br><br>
+        <div class="section">
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="col s7">
+                        <span class="flow-text">Быстрая генерация</span>
+                    </div>
+
+                    <div class="col s5">
+                        <a id="gen1" onclick="gen1()" href="javascript://" class="btn waves-effect lime black-text">
+                            <i class="material-icons left">play_arrow</i>Пуск
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col s12 m6">
+                    <div class="col s7">
+                        <span class="flow-text">Потактовая генерация</span>
+                    </div>
+
+                    <div class="col s5">
+                        <a id="gen2" onclick="gen2()" href="javascript://" class="btn waves-effect lime black-text">
+                            <i class="material-icons left">play_arrow</i>Пуск
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12">
+                    <div id="tableContainer">
+                        <table id="stateTable" class="centered striped">
+                            <thead>
+                                <tr>
+                                    <th>Случайная величина</th>
+                                    <th>Состояние</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td>-</td>
+                                    <td>2000</td>
+                                </tr>
+                                <tr>
+                                    <td>-</td>
+                                    <td>1000</td>
+                                </tr>
+                                <tr>
+                                    <td>-</td>
+                                    <td>2010</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </div>
+
+    <footer class="page-footer amber black-text">
+        <div class="container">
+            <div class="row">
+                <div class="col l12 s12">
+                    <h5>Инструкция</h5>
+                    <p>Быстрая генерация - генерирует случайные величины до тех пор, пока не будет получено состояние, при котором в очереди оказывается по крайней мере одна заявка.</p>
+                    <p>Потактовая генерация - производит такт, генерируя случайную величину.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright black-text">
+            <div class="container">
+                &copy; <a class="black-text" href="https://www.behance.net/iamchrisep"><b>iamchrisep</b></a> Кристина Богданова
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\2\lab2\lab2\bin\Debug\lab2.exe
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\2\lab2\lab2\bin\Debug\lab2.pdb
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\2\lab2\lab2\obj\Debug\lab2.Form1.resources
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\2\lab2\lab2\obj\Debug\lab2.Properties.Resources.resources
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\2\lab2\lab2\obj\Debug\lab2.csproj.GenerateResource.Cache
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\2\lab2\lab2\obj\Debug\lab2.exe
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\2\lab2\lab2\obj\Debug\lab2.pdb
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\2\lab2\lab2\obj\Debug\lab2.csprojResolveAssemblyReference.cache
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\2\lab2\lab2\bin\Debug\lab2.exe.config
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\2\lab2 - Lehmer\lab2\bin\Debug\lab2.exe.config
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\2\lab2 - Lehmer\lab2\obj\Debug\lab2.exe
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\2\lab2 - Lehmer\lab2\obj\Debug\lab2.pdb
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\2\lab2 - Lehmer\lab2\bin\Debug\lab2.exe
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\2\lab2 - Lehmer\lab2\bin\Debug\lab2.pdb
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\2\lab2 - Lehmer\lab2\obj\Debug\lab2.csprojResolveAssemblyReference.cache
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\2\lab2 - Lehmer\lab2\obj\Debug\lab2.Form1.resources
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\2\lab2 - Lehmer\lab2\obj\Debug\lab2.Properties.Resources.resources
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\2\lab2 - Lehmer\lab2\obj\Debug\lab2.csproj.GenerateResource.Cache
+D:\Учеба\3курс\Моделирование\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\bin\Debug\lab2.exe.config
+D:\Учеба\3курс\Моделирование\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\obj\Debug\lab2.exe
+D:\Учеба\3курс\Моделирование\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\obj\Debug\lab2.pdb
+D:\Учеба\3курс\Моделирование\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\bin\Debug\lab2.exe
+D:\Учеба\3курс\Моделирование\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\obj\Debug\lab2.csprojResolveAssemblyReference.cache
+D:\Учеба\3курс\Моделирование\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\obj\Debug\lab2.Form1.resources
+D:\Учеба\3курс\Моделирование\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\obj\Debug\lab2.Properties.Resources.resources
+D:\Учеба\3курс\Моделирование\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\obj\Debug\lab2.csproj.GenerateResource.Cache
+D:\Study14.2\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\bin\Debug\lab2.exe.config
+D:\Study14.2\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\obj\Debug\lab2.exe
+D:\Study14.2\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\obj\Debug\lab2.csprojResolveAssemblyReference.cache
+D:\Study14.2\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\obj\Debug\lab2.Form1.resources
+D:\Study14.2\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\obj\Debug\lab2.Properties.Resources.resources
+D:\Study14.2\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\obj\Debug\lab2.csproj.GenerateResource.Cache
+D:\Study14.2\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\bin\Debug\lab2.exe
+D:\Study14.2\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\bin\Debug\lab2.pdb
+D:\Study14.2\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\obj\Debug\lab2.pdb
+D:\Учёба\Study14.2\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\bin\Debug\lab2.exe.config
+D:\Учёба\Study14.2\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\obj\Debug\lab2.exe
+D:\Учёба\Study14.2\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\obj\Debug\lab2.pdb
+D:\Учёба\Study14.2\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\bin\Debug\lab2.exe
+D:\Учёба\Study14.2\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\bin\Debug\lab2.pdb
+D:\Учёба\Study14.2\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\obj\Debug\lab2.Form1.resources
+D:\Учёба\Study14.2\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\obj\Debug\lab2.Properties.Resources.resources
+D:\Учёба\Study14.2\Model_labs_1-4_2013_VMSiS\2\lab2 - Lehmer\lab2\obj\Debug\lab2.csproj.GenerateResource.Cache

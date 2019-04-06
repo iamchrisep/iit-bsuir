@@ -1,0 +1,61 @@
+﻿Сборка начата 10.05.2015 1:16:57.
+     1>Проект "E:\Users\Юрий\Documents\Visual Studio 2010\Projects\Model_lab3\Model_lab3\Model_lab3.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\Model_lab3.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       GenerateTargetFrameworkMonikerAttribute:
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         Для всех выходных данных обновления не требуется.
+         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt "E:\Users\Юрий\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       ManagedIncrementalBuildPostProcessDependencyGraph:
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Не удалось загрузить файл или сборку "file:///C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 10.0\VC\BIN\1049\CLUI.DLL" либо одну из их зависимостей. Не удается найти указанный файл.
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Не удалось загрузить файл или сборку "file:///C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V1.1.4322\MSCORWKS.DLL" либо одну из их зависимостей. Не удается найти указанный файл.
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Не удалось загрузить файл или сборку "file:///C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V2.0.50727\MSCORWKS.DLL" либо одну из их зависимостей. Не удается найти указанный файл.
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Не удалось загрузить файл или сборку "file:///C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\CLR.DLL" либо одну из их зависимостей. Не удается найти указанный файл.
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Не удалось загрузить файл или сборку "file:///C:\PROGRAM FILES (X86)\REFERENCE ASSEMBLIES\MICROSOFT\FRAMEWORK\.NETFRAMEWORK\V4.0\MSCORLIB.DLL" либо одну из их зависимостей. Не удается найти указанный файл.
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Не удалось загрузить файл или сборку "file:///C:\PROGRAM FILES (X86)\REFERENCE ASSEMBLIES\MICROSOFT\FRAMEWORK\.NETFRAMEWORK\V4.0\SYSTEM.CORE.DLL" либо одну из их зависимостей. Не удается найти указанный файл.
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Не удалось загрузить файл или сборку "file:///C:\PROGRAM FILES (X86)\REFERENCE ASSEMBLIES\MICROSOFT\FRAMEWORK\.NETFRAMEWORK\V4.0\SYSTEM.DATA.DLL" либо одну из их зависимостей. Не удается найти указанный файл.
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Не удалось загрузить файл или сборку "file:///C:\PROGRAM FILES (X86)\REFERENCE ASSEMBLIES\MICROSOFT\FRAMEWORK\.NETFRAMEWORK\V4.0\SYSTEM.DLL" либо одну из их зависимостей. Не удается найти указанный файл.
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Не удалось загрузить файл или сборку "file:///C:\PROGRAM FILES (X86)\REFERENCE ASSEMBLIES\MICROSOFT\FRAMEWORK\.NETFRAMEWORK\V4.0\SYSTEM.DRAWING.DLL" либо одну из их зависимостей. Не удается найти указанный файл.
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Не удалось загрузить файл или сборку "file:///C:\PROGRAM FILES (X86)\REFERENCE ASSEMBLIES\MICROSOFT\FRAMEWORK\.NETFRAMEWORK\V4.0\SYSTEM.WINDOWS.FORMS.DLL" либо одну из их зависимостей. Не удается найти указанный файл.
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Не удалось загрузить файл или сборку "file:///C:\PROGRAM FILES (X86)\REFERENCE ASSEMBLIES\MICROSOFT\FRAMEWORK\.NETFRAMEWORK\V4.0\SYSTEM.XML.DLL" либо одну из их зависимостей. Не удается найти указанный файл.
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Не удалось загрузить файл или сборку "file:///C:\PROGRAM FILES (X86)\REFERENCE ASSEMBLIES\MICROSOFT\FRAMEWORK\.NETFRAMEWORK\V4.0\MICROSOFT.VISUALC.DLL" либо одну из их зависимостей. Не удается найти указанный файл.
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Не удалось загрузить файл или сборку "file:///C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MSCORLIB.DLL" либо одну из их зависимостей. Не удается найти указанный файл.
+         To improve incremental build performance for managed components, please make sure that the 'VC++ Directories->Reference Directories' points to all the paths which contain the referenced managed assemblies.
+         Не удалось загрузить файл или сборку "file:///C:\WINDOWS\MICROSOFT.NET\FRAMEWORK\V4.0.30319\MICROSOFT.VISUALC.DLL" либо одну из их зависимостей. Не удается найти указанный файл.
+       CoreResGen:
+         Отсутствуют ресурсы, устаревшие по отношению к файлам своих источников. Пропуск формирования ресурсов.
+       ResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Users\Юрий\Documents\Visual Studio 2010\Projects\Model_lab3\Debug\Model_lab3.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:Debug\Model_lab3.Form1.resources /MANIFEST /ManifestFile:"Debug\Model_lab3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Users\Юрий\Documents\Visual Studio 2010\Projects\Model_lab3\Debug\Model_lab3.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\Model_lab3.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         Model_lab3.vcxproj -> E:\Users\Юрий\Documents\Visual Studio 2010\Projects\Model_lab3\Debug\Model_lab3.exe
+       Manifest:
+         E:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Users\Юрий\Documents\Visual Studio 2010\Projects\Model_lab3\Debug\Model_lab3.exe;#1" /manifest Debug\Model_lab3.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\Model_lab3.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\Model_lab3.lastbuildstate".
+     1>Построение проекта "E:\Users\Юрий\Documents\Visual Studio 2010\Projects\Model_lab3\Model_lab3\Model_lab3.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:14.60

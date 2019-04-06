@@ -1,0 +1,27 @@
+/* Custom Stylesheet */
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo-container {
+    font-size: 1.2rem;
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+.icon-block h4 {
+    word-break: break-all;
+}
+
+canvas {
+    width: 100%;
+    height: auto;
+}

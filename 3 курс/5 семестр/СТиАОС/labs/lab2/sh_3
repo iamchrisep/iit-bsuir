@@ -1,0 +1,14 @@
+#!/bin/bash
+
+FILE=$1
+SRC=$2
+TYPE=$3
+
+if [ $# -lt 3 ]
+    then
+        echo Something wrong with parameters
+        exit
+    fi
+
+echo $(find $SRC -iname '*.'$TYPE) > $FILE
+exit

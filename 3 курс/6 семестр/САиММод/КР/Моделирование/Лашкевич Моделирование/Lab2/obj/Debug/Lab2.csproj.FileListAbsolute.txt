@@ -1,0 +1,22 @@
+I:\Lab1\bin\Debug\Lab1.exe.config
+I:\Lab1\obj\Debug\Lab1.exe
+I:\Lab1\obj\Debug\Lab1.pdb
+C:\Users\Max\Desktop\САиММ (Моделирование)\Lab2\bin\Debug\Lab1.exe.config
+C:\Users\Max\Desktop\САиММ (Моделирование)\Lab2\obj\Debug\Lab1.exe
+C:\Users\Max\Desktop\САиММ (Моделирование)\Lab2\obj\Debug\Lab1.pdb
+C:\Users\Max\Desktop\САиММ (Моделирование)\Lab2\bin\Debug\Lab1.exe
+C:\Users\Max\Desktop\САиММ (Моделирование)\Lab2\bin\Debug\Lab1.pdb
+C:\Users\Max\Desktop\САиММ (Моделирование)\Lab2\bin\Debug\mscorlib.dll
+C:\Users\Max\Desktop\САиММ (Моделирование)\Lab2\bin\Debug\ru\mscorlib.resources.dll
+C:\Users\Max\Desktop\САиММ (Моделирование)\Lab2\bin\Debug\normidna.nlp
+C:\Users\Max\Desktop\САиММ (Моделирование)\Lab2\bin\Debug\normnfc.nlp
+C:\Users\Max\Desktop\САиММ (Моделирование)\Lab2\bin\Debug\normnfd.nlp
+C:\Users\Max\Desktop\САиММ (Моделирование)\Lab2\bin\Debug\normnfkc.nlp
+C:\Users\Max\Desktop\САиММ (Моделирование)\Lab2\bin\Debug\normnfkd.nlp
+C:\Users\Max\Desktop\САиММ (Моделирование)\Lab2\obj\Debug\Lab2.csprojResolveAssemblyReference.cache
+C:\Users\Max\Desktop\САиММ (Моделирование)\Lab2\obj\Debug\Lab1.Form1.resources
+C:\Users\Max\Desktop\САиММ (Моделирование)\Lab2\obj\Debug\Lab1.Properties.Resources.resources
+C:\Users\Max\Desktop\САиММ (Моделирование)\Lab2\obj\Debug\Lab2.csproj.GenerateResource.Cache
+F:\study\САиММ (Моделирование)\Lab2\bin\Debug\Lab1.exe.config
+F:\study\САиММ (Моделирование)\Lab2\obj\Debug\Lab1.exe
+F:\study\САиММ (Моделирование)\Lab2\obj\Debug\Lab1.pdb

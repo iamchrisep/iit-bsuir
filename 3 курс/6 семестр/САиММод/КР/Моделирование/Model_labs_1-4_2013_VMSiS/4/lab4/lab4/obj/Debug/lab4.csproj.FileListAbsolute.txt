@@ -1,0 +1,8 @@
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\4\lab4\lab4\bin\Debug\lab4.exe
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\4\lab4\lab4\bin\Debug\lab4.pdb
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\4\lab4\lab4\obj\Debug\lab4.csprojResolveAssemblyReference.cache
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\4\lab4\lab4\obj\Debug\lab4.Form1.resources
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\4\lab4\lab4\obj\Debug\lab4.Properties.Resources.resources
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\4\lab4\lab4\obj\Debug\lab4.csproj.GenerateResource.Cache
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\4\lab4\lab4\obj\Debug\lab4.exe
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\4\lab4\lab4\obj\Debug\lab4.pdb

@@ -1,0 +1,171 @@
+public class Cash_acc 
+{
+   private int number;
+   private int invoice;
+   public EducationCentre theEducationCentre;
+   public Move_on_check theMove_on_check;
+   public Course theCourse;
+   
+   /**
+    * @roseuid 5881EE880280
+    */
+   public Cash_acc() 
+   {
+    
+   }
+}
+
+import java.util.Date;
+
+public class Claim 
+{
+   private int number;
+   private Date date;
+   private String course;
+   private String level_knowledge;
+   private String name;
+   
+   /**
+    * @roseuid 5881EE880235
+    */
+   public Claim() 
+   {
+    
+   }
+}
+public class Client 
+{
+   private int number;
+   private String type_client;
+   private String name_client;
+   private String adres;
+   private int phone;
+   public Move_on_check theMove_on_check;
+   
+   /**
+    * @roseuid 5881EE880127
+    */
+   public Client() 
+   {
+    
+   }
+}
+import java.util.Date;
+
+public class Course 
+{
+   private int number;
+   private String name_course;
+   private String content;
+   private Date date_start;
+   private Date date_end;
+   private int cash_acc;
+   private String instructor;
+   private String comment;
+   public Claim theClaim;
+   
+   /**
+    * @roseuid 5881EE880304
+    */
+   public Course() 
+   {
+    
+   }
+}
+
+private class EducationCentre 
+{
+   private int number;
+   private String name;
+   private String director;
+   private int cash_acc;
+   
+   /**
+    * @roseuid 5881EE8800CB
+    */
+   public EducationCentre() 
+   {
+    
+   }
+}
+private class Knowledge_level 
+{
+   private int number;
+   private String name_knwlg_lev;
+   private String type_knowledge;
+   private String level;
+   public Claim theClaim;
+   
+   /**
+    * @roseuid 5881EE8803B8
+    */
+   public Knowledge_level() 
+   {
+    
+   }
+}
+public class Level 
+{
+   private int number;
+   private String name_level;
+   public Knowledge_level theKnowledge_level;
+   
+   /**
+    * @roseuid 5881EE890014
+    */
+   public Level() 
+   {
+    
+   }
+}
+
+import java.util.Date;
+
+public class Move_on_check 
+{
+   private int number;
+   private String client;
+   private Double total;
+   private Date date;
+   private int cash_acc;
+   
+   /**
+    * @roseuid 5881EE8802BA
+    */
+   public Move_on_check() 
+   {
+    
+   }
+}
+
+public class Type_client 
+{
+   private int number;
+   private String name_type_client;
+   public Client theClient;
+   
+   /**
+    * @roseuid 5881EE88016C
+    */
+   public Type_client() 
+   {
+    
+   }
+}
+public class Type_knowledge 
+{
+   private int number;
+   private String name_type_knowledge;
+   public Knowledge_level theKnowledge_level;
+   
+   /**
+    * @roseuid 5881EE8801A3
+    */
+   public Type_knowledge() 
+   {
+    
+   }
+}
+
+
+

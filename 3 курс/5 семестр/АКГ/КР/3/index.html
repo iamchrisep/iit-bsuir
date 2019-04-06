@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Задание 3</title>
+    <meta charset="utf-8" />
+    <script src="script\animation.js"></script>
+    <style>
+	body { font-family: 'Ubuntu', sans-serif; }
+	#startButton {
+	  font-weight: 700;
+	  color: white;
+	  text-decoration: none;
+	  outline: none;
+	  margin-left: 40px;
+	  padding: .8em 1em calc(.8em + 3px);
+	  border-radius: 3px;
+	  background: rgb(64,199,129);
+	  box-shadow: 0 -3px rgb(53,167,110) inset;
+	  transition: 0.2s;
+	  user-select: none; 
+	} 
+	#startButton:hover { background: rgb(53, 167, 110); }
+	#startButton:active {
+	  background: rgb(33,147,90);
+	  box-shadow: 0 3px rgb(33,147,90) inset;
+	}
+    </style>
+</head>
+
+<body>
+    <div style="position: relative;">
+        <canvas style="position: absolute; left: 0; top: 50px; z-index: 0;" id="canvas"> </canvas>
+        <canvas style="position: absolute; left: 0; top: 50px; z-index: 1;" id="canvas1"></canvas>
+    </div>
+    <div style="position: absolute; top: 20px; left: 10px;">
+        <a id="startButton" onclick="startAnimation()"></a>
+    </div>
+</body>
+
+</html>

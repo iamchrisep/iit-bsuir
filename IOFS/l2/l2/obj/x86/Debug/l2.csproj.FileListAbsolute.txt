@@ -1,0 +1,16 @@
+E:\WorkMaterials\ИОФС\l2\l2\bin\Debug\l2.exe
+E:\WorkMaterials\ИОФС\l2\l2\bin\Debug\l2.pdb
+E:\WorkMaterials\ИОФС\l2\l2\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\WorkMaterials\ИОФС\l2\l2\obj\x86\Debug\l2.Properties.Resources.resources
+E:\WorkMaterials\ИОФС\l2\l2\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\WorkMaterials\ИОФС\l2\l2\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\WorkMaterials\ИОФС\l2\l2\obj\x86\Debug\l2.exe
+E:\WorkMaterials\ИОФС\l2\l2\obj\x86\Debug\l2.pdb
+E:\WorkMaterials\ИОФС\l2\l2\obj\x86\Debug\l2.MainForm.resources
+E:\БГУИР\IOFS\l2\l2\obj\x86\Debug\l2.exe
+E:\БГУИР\IOFS\l2\l2\obj\x86\Debug\l2.pdb
+E:\БГУИР\IOFS\l2\l2\bin\Debug\l2.exe
+E:\БГУИР\IOFS\l2\l2\bin\Debug\l2.pdb
+E:\БГУИР\IOFS\l2\l2\obj\x86\Debug\l2.MainForm.resources
+E:\БГУИР\IOFS\l2\l2\obj\x86\Debug\l2.Properties.Resources.resources
+E:\БГУИР\IOFS\l2\l2\obj\x86\Debug\l2.csproj.GenerateResource.Cache

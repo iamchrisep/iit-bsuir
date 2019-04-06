@@ -1,0 +1,53 @@
+/* Custom Stylesheet */
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#logo-container {
+    font-size: 1.2rem;
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+#tableContainer {
+    height: 20rem;
+}
+
+#stateTable {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+}
+
+#stateTable thead {
+    /* head takes the height it requires, 
+  and it's not scaled when table is resized */
+    flex: 0 0 auto;
+    width: calc(100% - 0.9em);
+}
+
+#stateTable tbody {
+    /* body takes all the remaining available space */
+    flex: 1 1 auto;
+    display: block;
+    overflow-y: scroll;
+}
+
+#stateTable tbody tr {
+    width: 100%;
+}
+
+#stateTable thead,
+#stateTable tbody tr {
+    display: table;
+    table-layout: fixed;
+}

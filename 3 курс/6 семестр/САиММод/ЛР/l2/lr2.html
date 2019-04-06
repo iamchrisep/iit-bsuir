@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>САиММод Богданова 581072</title>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
+</head>
+
+<body>
+    <nav class="teal white-text">
+        <div class="nav-wrapper container">
+            <span id="logo-container" class="brand-logo white-text">
+                <b>Богданова К.Е., 581072, вариант 3</b>
+            </span>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="section" id="index-banner">
+            <div class="container">
+                <h4 class="header center blue-gray-text" style="font-weight: 800">Лабораторная работа 2</h4>
+                <h5 class="header center blue-gray-text" style="font-weight: 500">Формирование случайных чисел с заданным распределением</h5>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section">
+            <div class="row">
+                <h5 class="header center blue-gray-text">Начальные значения</h5>
+
+                <form class="col s12">
+                    <div class="input-field col s3">
+                        <p>n = 30</p>
+                        <p>k = 100000</p>
+                    </div>
+                    <div class="input-field col s3">
+                        <input id="R0" type="number" class="validate">
+                        <label for="R0">R0 (7)</label>
+                        <span class="helper-text" data-error="wrong" data-success="right">Параметр R0</span>
+                    </div>
+                    <div class="input-field col s3">
+                        <input id="a0" type="number" class="validate">
+                        <label for="a0">a ((2 ^ (n - 1)) - 2765)</label>
+                        <span class="helper-text" data-error="wrong" data-success="right">Параметр a</span>
+                    </div>
+                    <div class="input-field col s3">
+                        <input id="m0" type="number" class="validate">
+                        <label for="m0">m ((2 ^ n) - 14)</label>
+                        <span class="helper-text" data-error="wrong" data-success="right">Параметр m</span>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="row">
+                <h4 class="center">Имитация равномерного распределения</h4>
+                <h5 class="header center blue-gray-text">Значения оценок</h5>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h3 class="center pink-text" style="font-weight: 900">М</h3>
+                        <h6 class="center">Математическое ожидание <b>М</b></h6>
+                        <h5 id="M2" class="center thin">0.000</h5>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h3 class="center indigo-text" style="font-weight: 900">D</h3>
+                        <h6 class="center">Дисперсия <b>D</b></h6>
+                        <h5 id="D2" class="center thin">0.000</h5>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h3 class="center cyan-text" style="font-weight: 900">σ</h3>
+                        <h6 class="center">Среднее квадратичное отклонение <b>σ</b></h6>
+                        <h5 id="S2" class="center thin">0.000</h5>
+                    </div>
+                </div>
+
+                <div class="col s12">
+                    <canvas id="graph2"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="row">
+                <h4 class="center">Имитация распределения Симпсона (треугльное распределение)</h4>
+                <h5 class="header center blue-gray-text">Значения оценок</h5>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h3 class="center pink-text" style="font-weight: 900">М</h3>
+                        <h6 class="center">Математическое ожидание <b>М</b></h6>
+                        <h5 id="M3" class="center thin">0.000</h5>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h3 class="center indigo-text" style="font-weight: 900">D</h3>
+                        <h6 class="center">Дисперсия <b>D</b></h6>
+                        <h5 id="D3" class="center thin">0.000</h5>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h3 class="center cyan-text" style="font-weight: 900">σ</h3>
+                        <h6 class="center">Среднее квадратичное отклонение <b>σ</b></h6>
+                        <h5 id="S3" class="center thin">0.000</h5>
+                    </div>
+                </div>
+
+                <div class="col s12">
+                    <canvas id="graph3"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="row">
+                <h4 class="center">Имитация экспоненциального распределения</h4>
+                <h5 class="header center blue-gray-text">Значения оценок</h5>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h3 class="center pink-text" style="font-weight: 900">М</h3>
+                        <h6 class="center">Математическое ожидание <b>М</b></h6>
+                        <h5 id="M4" class="center thin">0.000</h5>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h3 class="center indigo-text" style="font-weight: 900">D</h3>
+                        <h6 class="center">Дисперсия <b>D</b></h6>
+                        <h5 id="D4" class="center thin">0.000</h5>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h3 class="center cyan-text" style="font-weight: 900">σ</h3>
+                        <h6 class="center">Среднее квадратичное отклонение <b>σ</b></h6>
+                        <h5 id="S4" class="center thin">0.000</h5>
+                    </div>
+                </div>
+
+                <div class="col s12">
+                    <canvas id="graph4"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="row">
+                <h4 class="center">Имитация гамма-распределения</h4>
+                <h5 class="header center blue-gray-text">Значения оценок</h5>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h3 class="center pink-text" style="font-weight: 900">М</h3>
+                        <h6 class="center">Математическое ожидание <b>М</b></h6>
+                        <h5 id="M5" class="center thin">0.000</h5>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h3 class="center indigo-text" style="font-weight: 900">D</h3>
+                        <h6 class="center">Дисперсия <b>D</b></h6>
+                        <h5 id="D5" class="center thin">0.000</h5>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h3 class="center cyan-text" style="font-weight: 900">σ</h3>
+                        <h6 class="center">Среднее квадратичное отклонение <b>σ</b></h6>
+                        <h5 id="S5" class="center thin">0.000</h5>
+                    </div>
+                </div>
+
+                <div class="col s12">
+                    <canvas id="graph5"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="row">
+                <h4 class="center">Имитация нормального (гауссовского) распределения</h4>
+                <h5 class="header center blue-gray-text">Значения оценок</h5>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h3 class="center pink-text" style="font-weight: 900">М</h3>
+                        <h6 class="center">Математическое ожидание <b>М</b></h6>
+                        <h5 id="M6" class="center thin">0.000</h5>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h3 class="center indigo-text" style="font-weight: 900">D</h3>
+                        <h6 class="center">Дисперсия <b>D</b></h6>
+                        <h5 id="D6" class="center thin">0.000</h5>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h3 class="center cyan-text" style="font-weight: 900">σ</h3>
+                        <h6 class="center">Среднее квадратичное отклонение <b>σ</b></h6>
+                        <h5 id="S6" class="center thin">0.000</h5>
+                    </div>
+                </div>
+
+                <div class="col s12">
+                    <canvas id="graph6"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="row">
+                <h4 class="center">Имитация треугольного распределения</h4>
+                <h5 class="header center blue-gray-text">Значения оценок</h5>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h3 class="center pink-text" style="font-weight: 900">М</h3>
+                        <h6 class="center">Математическое ожидание <b>М</b></h6>
+                        <h5 id="M7" class="center thin">0.000</h5>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h3 class="center indigo-text" style="font-weight: 900">D</h3>
+                        <h6 class="center">Дисперсия <b>D</b></h6>
+                        <h5 id="D7" class="center thin">0.000</h5>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <div class="icon-block">
+                        <h3 class="center cyan-text" style="font-weight: 900">σ</h3>
+                        <h6 class="center">Среднее квадратичное отклонение <b>σ</b></h6>
+                        <h5 id="S7" class="center thin">0.000</h5>
+                    </div>
+                </div>
+
+                <div class="col s12">
+                    <canvas id="graph7"></canvas>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </div>
+
+    <footer class="page-footer deep-purple white-text">
+        <div class="container">
+            <div class="row">
+                <p>Богданова К.Е., 581072, вариант 3</p>
+            </div>
+        </div>
+        <div class="footer-copyright white-text">
+            <div class="container">
+                &copy; <a class="white-text" href="https://www.behance.net/iamchrisep"><b>iamchrisep</b></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/chart.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

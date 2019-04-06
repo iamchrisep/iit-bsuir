@@ -1,0 +1,32 @@
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\4\lab4\lab4\bin\Debug\lab4.exe
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\4\lab4\lab4\bin\Debug\lab4.pdb
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\4\lab4\lab4\obj\Debug\lab4.csprojResolveAssemblyReference.cache
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\4\lab4\lab4\obj\Debug\lab4.Form1.resources
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\4\lab4\lab4\obj\Debug\lab4.Properties.Resources.resources
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\4\lab4\lab4\obj\Debug\lab4.csproj.GenerateResource.Cache
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\4\lab4\lab4\obj\Debug\lab4.exe
+E:\Documents\К учёбе\БГУИР\Учебные материалы\3 курс\6 семестр only\Моделирование\Лабы\4\lab4\lab4\obj\Debug\lab4.pdb
+D:\Study14.2\Model_labs_1-4_2013_VMSiS\4\lab4\lab4\obj\Debug\lab4.exe
+D:\Study14.2\Model_labs_1-4_2013_VMSiS\4\lab4\lab4\obj\Debug\lab4.pdb
+D:\Study14.2\Model_labs_1-4_2013_VMSiS\4\lab4\lab4\bin\Debug\lab4.exe
+D:\Study14.2\Model_labs_1-4_2013_VMSiS\4\lab4\lab4\bin\Debug\lab4.pdb
+D:\Study14.2\Model_labs_1-4_2013_VMSiS\4\lab4\lab4\obj\Debug\lab4.csprojResolveAssemblyReference.cache
+D:\Study14.2\Model_labs_1-4_2013_VMSiS\4\lab4\lab4\obj\Debug\lab4.Form1.resources
+D:\Study14.2\Model_labs_1-4_2013_VMSiS\4\lab4\lab4\obj\Debug\lab4.Properties.Resources.resources
+D:\Study14.2\Model_labs_1-4_2013_VMSiS\4\lab4\lab4\obj\Debug\lab4.csproj.GenerateResource.Cache
+D:\Учёба\Study14.2\Model_labs_1-4_2013_VMSiS\4\lab4\lab4\obj\Debug\lab4.exe
+D:\Учёба\Study14.2\Model_labs_1-4_2013_VMSiS\4\lab4\lab4\obj\Debug\lab4.pdb
+D:\Учёба\Study14.2\Model_labs_1-4_2013_VMSiS\4\lab4\lab4\bin\Debug\lab4.exe
+D:\Учёба\Study14.2\Model_labs_1-4_2013_VMSiS\4\lab4\lab4\bin\Debug\lab4.pdb
+D:\Учёба\Study14.2\Model_labs_1-4_2013_VMSiS\4\lab4\lab4\obj\Debug\lab4.Form1.resources
+D:\Учёба\Study14.2\Model_labs_1-4_2013_VMSiS\4\lab4\lab4\obj\Debug\lab4.Properties.Resources.resources
+D:\Учёба\Study14.2\Model_labs_1-4_2013_VMSiS\4\lab4\lab4\obj\Debug\lab4.csproj.GenerateResource.Cache
+D:\Учёба\Study14.2\Моделирование\MyLabs\lab4\lab4\obj\Debug\lab4.exe
+D:\Учёба\Study14.2\Моделирование\MyLabs\lab4\lab4\obj\Debug\lab4.pdb
+D:\Учёба\Study14.2\Моделирование\MyLabs\lab4\lab4\bin\Debug\lab4.exe
+D:\Учёба\Study14.2\Моделирование\MyLabs\lab4\lab4\bin\Debug\lab4.pdb
+D:\Учёба\Study14.2\Моделирование\MyLabs\lab4\lab4\obj\Debug\lab4.Form1.resources
+D:\Учёба\Study14.2\Моделирование\MyLabs\lab4\lab4\obj\Debug\lab4.Properties.Resources.resources
+D:\Учёба\Study14.2\Моделирование\MyLabs\lab4\lab4\obj\Debug\lab4.csproj.GenerateResource.Cache
+D:\Учеба\3курс\Моделирование\MyLabs\Model_lab4\lab4\obj\Debug\lab4.exe
+D:\Учеба\3курс\Моделирование\MyLabs\Model_lab4\lab4\obj\Debug\lab4.pdb

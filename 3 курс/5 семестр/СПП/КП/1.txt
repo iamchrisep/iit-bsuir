@@ -1,0 +1,571 @@
+<?php
+
+namespace Sylius\Bundle\ShopBundle\EventListener;
+
+use Doctrine\Common\Persistence\ObjectManager;
+use Sylius\Bundle\UserBundle\Security\UserLoginInterface;
+use Sylius\Bundle\UserBundle\UserEvents;
+use Sylius\Component\Channel\Context\ChannelContextInterface;
+use Sylius\Component\Core\Model\ChannelInterface;
+use Sylius\Component\Core\Model\CustomerInterface;
+use Sylius\Component\Core\Model\ShopUserInterface;
+use Sylius\Component\User\Security\Generator\GeneratorInterface;
+use Symfony\Component\EventDispatcher\EventDispatcherInterface;
+use Symfony\Component\EventDispatcher\GenericEvent;
+use Webmozart\Assert\Assert;
+
+final class UserRegistrationListener
+{
+    /**
+     * @var ObjectManager
+     */
+    private $userManager;
+
+    /**
+     * @var GeneratorInterface
+     */
+    private $tokenGenerator;
+
+    /**
+     * @var EventDispatcherInterface
+     */
+    private $eventDispatcher;
+
+    /**
+     * @var ChannelContextInterface
+     */
+    private $channelContext;
+
+    /**
+     * @var UserLoginInterface
+     */
+    private $userLogin;
+
+    /**
+     * @var string
+     */
+    private $firewallContextName;
+
+    /**
+     * @param ObjectManager $userManager
+     * @param GeneratorInterface $tokenGenerator
+     * @param EventDispatcherInterface $eventDispatcher
+     * @param ChannelContextInterface $channelContext
+     * @param UserLoginInterface $userLogin
+     * @param string $firewallContextName
+     */
+    public function __construct(
+        ObjectManager $userManager,
+        GeneratorInterface $tokenGenerator,
+        EventDispatcherInterface $eventDispatcher,
+        ChannelContextInterface $channelContext,
+        UserLoginInterface $userLogin,
+        $firewallContextName
+    ) {
+        $this->userManager = $userManager;
+        $this->tokenGenerator = $tokenGenerator;
+        $this->eventDispatcher = $eventDispatcher;
+        $this->channelContext = $channelContext;
+        $this->userLogin = $userLogin;
+        $this->firewallContextName = $firewallContextName;
+    }
+
+    /**
+     * @param GenericEvent $event
+     */
+    public function handleUserVerification(GenericEvent $event)
+    {
+        $customer = $event->getSubject();
+        Assert::isInstanceOf($customer, CustomerInterface::class);
+
+        $user = $customer->getUser();
+        Assert::notNull($user);
+
+        /** @var ChannelInterface $channel */
+        $channel = $this->channelContext->getChannel();
+        if (!$channel->isAccountVerificationRequired()) {
+            $this->enableAndLogin($user);
+        }
+
+        $this->sendVerificationEmail($user);
+    }
+
+    /**
+     * @param ShopUserInterface $user
+     */
+    private function sendVerificationEmail(ShopUserInterface $user)
+    {
+        $token = $this->tokenGenerator->generate();
+        $user->setEmailVerificationToken($token);
+
+        $this->userManager->persist($user);
+        $this->userManager->flush();
+
+        $this->eventDispatcher->dispatch(UserEvents::REQUEST_VERIFICATION_TOKEN, new GenericEvent($user));
+    }
+
+    /**
+     * @param ShopUserInterface $user
+     */
+    private function enableAndLogin(ShopUserInterface $user)
+    {
+        $user->setEnabled(true);
+
+        $this->userLogin->login($user, $this->firewallContextName);
+    }
+}
+
+
+
+<?php
+
+namespace Sylius\Bundle\ShopBundle\EventListener;
+
+use Sylius\Bundle\ResourceBundle\Event\ResourceControllerEvent;
+use Sylius\Component\Core\Model\OrderInterface;
+use Sylius\Component\Order\SyliusCartEvents;
+use Sylius\Component\Promotion\Checker\Eligibility\PromotionEligibilityCheckerInterface;
+use Symfony\Component\EventDispatcher\EventDispatcherInterface;
+use Symfony\Component\EventDispatcher\GenericEvent;
+use Symfony\Component\HttpFoundation\RedirectResponse;
+use Symfony\Component\Routing\RouterInterface;
+use Webmozart\Assert\Assert;
+
+final class OrderPromotionIntegrityChecker
+{
+    /**
+     * @var PromotionEligibilityCheckerInterface
+     */
+    private $promotionEligibilityChecker;
+
+    /**
+     * @var EventDispatcherInterface
+     */
+    private $eventDispatcher;
+
+    /**
+     * @var RouterInterface
+     */
+    private $router;
+
+    /**
+     * @param PromotionEligibilityCheckerInterface $promotionEligibilityChecker
+     * @param EventDispatcherInterface $eventDispatcher
+     * @param RouterInterface $router
+     */
+    public function __construct(
+        PromotionEligibilityCheckerInterface $promotionEligibilityChecker,
+        EventDispatcherInterface $eventDispatcher,
+        RouterInterface $router
+    ) {
+        $this->promotionEligibilityChecker = $promotionEligibilityChecker;
+        $this->eventDispatcher = $eventDispatcher;
+        $this->router = $router;
+    }
+
+    /**
+     * @param ResourceControllerEvent $event
+     */
+    public function check(ResourceControllerEvent $event)
+    {
+        /** @var OrderInterface $order */
+        $order = $event->getSubject();
+
+        Assert::isInstanceOf($order, OrderInterface::class);
+
+        $promotions = $order->getPromotions();
+        foreach ($promotions as $promotion) {
+            if (!$this->promotionEligibilityChecker->isEligible($order, $promotion)) {
+                $event->stop(
+                    'sylius.order.promotion_integrity',
+                    ResourceControllerEvent::TYPE_ERROR,
+                    ['%promotionName%' => $promotion->getName()]
+                );
+
+                $event->setResponse(new RedirectResponse($this->router->generate('sylius_shop_checkout_complete')));
+
+                $this->eventDispatcher->dispatch(SyliusCartEvents::CART_CHANGE, new GenericEvent($order));
+
+                break;
+            }
+        }
+    }
+}
+
+
+
+<?php
+
+namespace Sylius\Bundle\ShopBundle\Menu;
+
+use Knp\Menu\FactoryInterface;
+use Knp\Menu\ItemInterface;
+use Sylius\Bundle\UiBundle\Menu\Event\MenuBuilderEvent;
+use Symfony\Component\EventDispatcher\EventDispatcherInterface;
+
+final class AccountMenuBuilder
+{
+    const EVENT_NAME = 'sylius.menu.shop.account';
+
+    /**
+     * @var FactoryInterface
+     */
+    private $factory;
+
+    /**
+     * @var EventDispatcherInterface
+     */
+    private $eventDispatcher;
+
+    /**
+     * @param FactoryInterface $factory
+     * @param EventDispatcherInterface $eventDispatcher
+     */
+    public function __construct(FactoryInterface $factory, EventDispatcherInterface $eventDispatcher)
+    {
+        $this->factory = $factory;
+        $this->eventDispatcher = $eventDispatcher;
+    }
+
+    /**
+     * @param array $options
+     *
+     * @return ItemInterface
+     */
+    public function createMenu(array $options)
+    {
+        $menu = $this->factory->createItem('root');
+        $menu->setLabel('sylius.menu.shop.account.header');
+
+        $menu
+            ->addChild('dashboard', ['route' => 'sylius_shop_account_dashboard'])
+            ->setLabel('sylius.menu.shop.account.dashboard')
+            ->setLabelAttribute('icon', 'home')
+        ;
+        $menu
+            ->addChild('personal_information', ['route' => 'sylius_shop_account_profile_update'])
+            ->setLabel('sylius.menu.shop.account.personal_information')
+            ->setLabelAttribute('icon', 'user')
+        ;
+        $menu
+            ->addChild('change_password', ['route' => 'sylius_shop_account_change_password'])
+            ->setLabel('sylius.menu.shop.account.change_password')
+            ->setLabelAttribute('icon', 'lock')
+        ;
+        $menu
+            ->addChild('address_book', ['route' => 'sylius_shop_account_address_book_index'])
+            ->setLabel('sylius.menu.shop.account.address_book')
+            ->setLabelAttribute('icon', 'book')
+        ;
+        $menu
+            ->addChild('order_history', ['route' => 'sylius_shop_account_order_index'])
+            ->setLabel('sylius.menu.shop.account.order_history')
+            ->setLabelAttribute('icon', 'cart')
+        ;
+
+        $this->eventDispatcher->dispatch(self::EVENT_NAME, new MenuBuilderEvent($this->factory, $menu));
+
+        return $menu;
+    }
+}
+
+
+
+<div class="ui basic segment">
+    <div class="ui three column stackable grid">
+        <div class="column">
+            <a href="{{ path('sylius_shop_homepage') }}"><img src="{{ asset('assets/shop/img/logo.png') }}" alt="Jewelry logo" class="ui small image" style="width: 100%;" /></a>
+        </div>
+        <div class="column">
+            {{ sonata_block_render_event('sylius.shop.layout.header') }}
+        </div>
+        <div class="right aligned column">
+            {{ render(url('sylius_shop_partial_cart_summary', {'template': '@SyliusShop/Cart/_widget.html.twig'})) }}
+        </div>
+    </div>
+</div>
+
+
+
+<footer id="footer" class="ui inverted vertical footer segment">
+    <div class="ui container">
+        <div class="ui inverted divided equal height stackable grid">
+            {{ sonata_block_render_event('sylius.shop.layout.before_footer') }}
+
+            <div class="eight wide column">
+                <h4 class="ui inverted header">&copy; 2017 Jewelry</h4>
+                <p>Дизайн и разработка <a href="https://www.upwork.com/o/profiles/users/_~015cece1ecfaa14a9d/" target="_blank" style="color: #999999;">iamchrisep</a>.</p>
+                <p>Внимание! Данный проект является учебным. Все используемые изображения и текст в описании товаров принадлежат интернет-магазину <a href="https://kochut.org/" target="_blank" style="color: #999999;">Kochut</a>.</p>
+            </div>
+
+            {{ sonata_block_render_event('sylius.shop.layout.after_footer') }}
+        </div>
+    </div>
+</footer>
+
+
+
+{% extends '@SyliusShop/layout.html.twig' %}
+
+{% block content %}
+<div class="ui hidden divider"></div>
+<div class="ui one column grid banner">
+    <img src="{{ asset('assets/shop/images/act.png') }}" alt="Banner" class="ui image" style="width: 100%; height: 100%;" />
+</div>
+<div class="ui hidden divider"></div>
+<h2 class="ui horizontal section divider header">
+    {{ 'sylius.ui.latest_products'|trans }}
+</h2>
+{{ render(url('sylius_shop_partial_product_index_latest', {'count': 8, 'template': '@SyliusShop/Product/_horizontalList.html.twig'})) }}
+{% endblock %}
+
+
+
+<?php
+
+namespace Sylius\Bundle\ShopBundle\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Templating\EngineInterface;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+
+final class HomepageController
+{
+    /**
+     * @var EngineInterface
+     */
+    private $templatingEngine;
+
+    /**
+     * @param EngineInterface $templatingEngine
+     */
+    public function __construct(EngineInterface $templatingEngine)
+    {
+        $this->templatingEngine = $templatingEngine;
+    }
+
+    /**
+     * @param Request $request
+     *
+     * @return Response
+     */
+    public function indexAction(Request $request)
+    {
+        return $this->templatingEngine->renderResponse('@SyliusShop/Homepage/index.html.twig');
+    }
+}
+
+
+
+<?php
+
+namespace Sylius\Bundle\ShopBundle\Controller;
+
+use Sylius\Bundle\ShopBundle\Locale\LocaleSwitcherInterface;
+use Sylius\Component\Locale\Context\LocaleContextInterface;
+use Sylius\Component\Locale\Provider\LocaleProviderInterface;
+use Symfony\Bundle\FrameworkBundle\Templating\EngineInterface;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpKernel\Exception\HttpException;
+
+final class LocaleSwitchController
+{
+    /**
+     * @var EngineInterface
+     */
+    private $templatingEngine;
+
+    /**
+     * @var LocaleContextInterface
+     */
+    private $localeContext;
+
+    /**
+     * @var LocaleProviderInterface
+     */
+    private $localeProvider;
+
+    /**
+     * @var LocaleSwitcherInterface
+     */
+    private $localeSwitcher;
+
+    /**
+     * @param EngineInterface $templatingEngine
+     * @param LocaleContextInterface $localeContext
+     * @param LocaleProviderInterface $localeProvider
+     * @param LocaleSwitcherInterface $localeSwitcher
+     */
+    public function __construct(
+        EngineInterface $templatingEngine,
+        LocaleContextInterface $localeContext,
+        LocaleProviderInterface $localeProvider,
+        LocaleSwitcherInterface $localeSwitcher
+    ) {
+        $this->templatingEngine = $templatingEngine;
+        $this->localeContext = $localeContext;
+        $this->localeProvider = $localeProvider;
+        $this->localeSwitcher = $localeSwitcher;
+    }
+
+    /**
+     * @return Response
+     */
+    public function renderAction()
+    {
+        return $this->templatingEngine->renderResponse('@SyliusShop/Menu/_localeSwitch.html.twig', [
+            'active' => $this->localeContext->getLocaleCode(),
+            'locales' => $this->localeProvider->getAvailableLocalesCodes(),
+        ]);
+    }
+
+    /**
+     * @param Request $request
+     * @param string $code
+     *
+     * @return Response
+     */
+    public function switchAction(Request $request, $code = null)
+    {
+        if (null === $code) {
+            $code = $this->localeProvider->getDefaultLocaleCode();
+        }
+
+        if (!in_array($code, $this->localeProvider->getAvailableLocalesCodes(), true)) {
+            throw new HttpException(
+                Response::HTTP_NOT_ACCEPTABLE,
+                sprintf('The locale code "%s" is invalid.', $code)
+            );
+        }
+
+        return $this->localeSwitcher->handle($request, $code);
+    }
+}
+
+
+
+<?php
+
+namespace Sylius\Bundle\ShopBundle\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Templating\EngineInterface;
+use Symfony\Component\HttpFoundation\Response;
+
+final class SecurityWidgetController
+{
+    /**
+     * @var EngineInterface
+     */
+    private $templatingEngine;
+
+    /**
+     * @param EngineInterface $templatingEngine
+     */
+    public function __construct(EngineInterface $templatingEngine)
+    {
+        $this->templatingEngine = $templatingEngine;
+    }
+
+    /**
+     * @return Response
+     */
+    public function renderAction()
+    {
+        return $this->templatingEngine->renderResponse('@SyliusShop/Menu/_security.html.twig');
+    }
+}
+
+
+
+<?php
+
+namespace Sylius\Bundle\ShopBundle\Controller;
+
+use Sylius\Component\Channel\Context\ChannelContextInterface;
+use Sylius\Component\Core\Currency\CurrencyStorageInterface;
+use Sylius\Component\Core\Model\ChannelInterface;
+use Sylius\Component\Currency\Context\CurrencyContextInterface;
+use Sylius\Component\Currency\Model\CurrencyInterface;
+use Symfony\Bundle\FrameworkBundle\Templating\EngineInterface;
+use Symfony\Component\HttpFoundation\RedirectResponse;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
+
+final class CurrencySwitchController
+{
+    /**
+     * @var EngineInterface
+     */
+    private $templatingEngine;
+
+    /**
+     * @var CurrencyContextInterface
+     */
+    private $currencyContext;
+
+    /**
+     * @var CurrencyStorageInterface
+     */
+    private $currencyStorage;
+
+    /**
+     * @var ChannelContextInterface
+     */
+    private $channelContext;
+
+    /**
+     * @param EngineInterface $templatingEngine
+     * @param CurrencyContextInterface $currencyContext
+     * @param CurrencyStorageInterface $currencyStorage
+     * @param ChannelContextInterface $channelContext
+     */
+    public function __construct(
+        EngineInterface $templatingEngine,
+        CurrencyContextInterface $currencyContext,
+        CurrencyStorageInterface $currencyStorage,
+        ChannelContextInterface $channelContext
+    ) {
+        $this->templatingEngine = $templatingEngine;
+        $this->currencyContext = $currencyContext;
+        $this->currencyStorage = $currencyStorage;
+        $this->channelContext = $channelContext;
+    }
+
+    /**
+     * @return Response
+     */
+    public function renderAction()
+    {
+        /** @var ChannelInterface $channel */
+        $channel = $this->channelContext->getChannel();
+
+        $availableCurrencies = array_map(
+            function (CurrencyInterface $currency) {
+                return $currency->getCode();
+            },
+            $channel->getCurrencies()->toArray()
+        );
+
+        return $this->templatingEngine->renderResponse('@SyliusShop/Menu/_currencySwitch.html.twig', [
+            'active' => $this->currencyContext->getCurrencyCode(),
+            'currencies' => $availableCurrencies,
+        ]);
+    }
+
+    /**
+     * @param Request $request
+     * @param string $code
+     *
+     * @return Response
+     */
+    public function switchAction(Request $request, $code)
+    {
+        /** @var ChannelInterface $channel */
+        $channel = $this->channelContext->getChannel();
+
+        $this->currencyStorage->set($channel, $code);
+
+        return new RedirectResponse($request->headers->get('referer', $request->getSchemeAndHttpHost()));
+    }
+}

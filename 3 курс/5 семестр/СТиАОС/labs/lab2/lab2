@@ -1,0 +1,3 @@
+#!/bin/bash
+
+grep -Hur $1 $2

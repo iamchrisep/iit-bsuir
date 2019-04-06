@@ -1,0 +1,65 @@
+E:\WorkMaterials\ИОФС\l2\l2\bin\Debug\l2.exe
+E:\WorkMaterials\ИОФС\l2\l2\bin\Debug\l2.pdb
+E:\WorkMaterials\ИОФС\l2\l2\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\WorkMaterials\ИОФС\l2\l2\obj\x86\Debug\l2.Properties.Resources.resources
+E:\WorkMaterials\ИОФС\l2\l2\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\WorkMaterials\ИОФС\l2\l2\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\WorkMaterials\ИОФС\l2\l2\obj\x86\Debug\l2.exe
+E:\WorkMaterials\ИОФС\l2\l2\obj\x86\Debug\l2.pdb
+E:\WorkMaterials\ИОФС\l2\l2\obj\x86\Debug\l2.MainForm.resources
+D:\Учеба\Коренская\downloaded\l2\l2\obj\x86\Debug\l2.exe
+D:\Учеба\Коренская\downloaded\l2\l2\obj\x86\Debug\l2.pdb
+D:\Учеба\Коренская\downloaded\l2\l2\bin\Debug\l2.exe
+D:\Учеба\Коренская\downloaded\l2\l2\bin\Debug\l2.pdb
+D:\Учеба\Коренская\downloaded\l2\l2\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Учеба\Коренская\downloaded\l2\l2\obj\x86\Debug\l2.MainForm.resources
+D:\Учеба\Коренская\downloaded\l2\l2\obj\x86\Debug\l2.Properties.Resources.resources
+D:\Учеба\Коренская\downloaded\l2\l2\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Учеба\Коренская\downloaded\l2\l2\obj\x86\Debug\GenerateResource.write.1.tlog
+d:\Учеба ИИТ\4 курс 1 семестр\ОerpС\l2\l2\obj\x86\Debug\l2.exe
+d:\Учеба ИИТ\4 курс 1 семестр\ОerpС\l2\l2\obj\x86\Debug\l2.pdb
+d:\Учеба ИИТ\4 курс 1 семестр\ОerpС\l2\l2\bin\Debug\l2.exe
+d:\Учеба ИИТ\4 курс 1 семестр\ОerpС\l2\l2\bin\Debug\l2.pdb
+d:\Учеба ИИТ\4 курс 1 семестр\ОerpС\l2\l2\obj\x86\Debug\l2.MainForm.resources
+d:\Учеба ИИТ\4 курс 1 семестр\ОerpС\l2\l2\obj\x86\Debug\l2.Properties.Resources.resources
+d:\Учеба ИИТ\4 курс 1 семестр\ОerpС\l2\l2\obj\x86\Debug\l2.csproj.GenerateResource.Cache
+E:\ОerpС\l2\l2\obj\x86\Debug\l2.exe
+E:\ОerpС\l2\l2\obj\x86\Debug\l2.pdb
+E:\ОerpС\l2\l2\bin\Debug\l2.exe
+E:\ОerpС\l2\l2\bin\Debug\l2.pdb
+E:\ОerpС\l2\l2\obj\x86\Debug\l2.csprojResolveAssemblyReference.cache
+E:\ОerpС\l2\l2\obj\x86\Debug\l2.MainForm.resources
+E:\ОerpС\l2\l2\obj\x86\Debug\l2.Properties.Resources.resources
+E:\ОerpС\l2\l2\obj\x86\Debug\l2.csproj.GenerateResource.Cache
+D:\Study, bitch =_=''\Универ\4 курс\Lel\l2\l2\obj\x86\Debug\l2.exe
+D:\Study, bitch =_=''\Универ\4 курс\Lel\l2\l2\obj\x86\Debug\l2.pdb
+D:\Study, bitch =_=''\Универ\4 курс\Lel\l2\l2\bin\Debug\l2.exe
+D:\Study, bitch =_=''\Универ\4 курс\Lel\l2\l2\bin\Debug\l2.pdb
+D:\Study, bitch =_=''\Универ\4 курс\Lel\l2\l2\obj\x86\Debug\l2.csprojResolveAssemblyReference.cache
+D:\Study, bitch =_=''\Универ\4 курс\Lel\l2\l2\obj\x86\Debug\l2.MainForm.resources
+D:\Study, bitch =_=''\Универ\4 курс\Lel\l2\l2\obj\x86\Debug\l2.Properties.Resources.resources
+D:\Study, bitch =_=''\Универ\4 курс\Lel\l2\l2\obj\x86\Debug\l2.csproj.GenerateResource.Cache
+G:\Lel\l2\l2\obj\x86\Debug\l2.exe
+G:\Lel\l2\l2\obj\x86\Debug\l2.pdb
+G:\Lel\l2\l2\bin\Debug\l2.exe
+G:\Lel\l2\l2\bin\Debug\l2.pdb
+G:\Lel\l2\l2\obj\x86\Debug\l2.csprojResolveAssemblyReference.cache
+G:\Lel\l2\l2\obj\x86\Debug\l2.MainForm.resources
+G:\Lel\l2\l2\obj\x86\Debug\l2.Properties.Resources.resources
+G:\Lel\l2\l2\obj\x86\Debug\l2.csproj.GenerateResource.Cache
+D:\Renata\zad2\l2\obj\x86\Debug\l2.exe
+D:\Renata\zad2\l2\obj\x86\Debug\l2.pdb
+D:\Renata\zad2\l2\bin\Debug\l2.exe
+D:\Renata\zad2\l2\bin\Debug\l2.pdb
+D:\Renata\zad2\l2\obj\x86\Debug\l2.csprojResolveAssemblyReference.cache
+D:\Renata\zad2\l2\obj\x86\Debug\l2.MainForm.resources
+D:\Renata\zad2\l2\obj\x86\Debug\l2.Properties.Resources.resources
+D:\Renata\zad2\l2\obj\x86\Debug\l2.csproj.GenerateResource.Cache
+D:\Сессия\Основы ERP-систем\zad2\l2\obj\x86\Debug\l2.exe
+D:\Сессия\Основы ERP-систем\zad2\l2\obj\x86\Debug\l2.pdb
+D:\Сессия\Основы ERP-систем\zad2\l2\bin\Debug\l2.exe
+D:\Сессия\Основы ERP-систем\zad2\l2\bin\Debug\l2.pdb
+D:\Сессия\Основы ERP-систем\zad2\l2\obj\x86\Debug\l2.csprojResolveAssemblyReference.cache
+D:\Сессия\Основы ERP-систем\zad2\l2\obj\x86\Debug\l2.MainForm.resources
+D:\Сессия\Основы ERP-систем\zad2\l2\obj\x86\Debug\l2.Properties.Resources.resources
+D:\Сессия\Основы ERP-систем\zad2\l2\obj\x86\Debug\l2.csproj.GenerateResource.Cache

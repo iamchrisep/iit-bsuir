@@ -1,0 +1,8 @@
+E:\WorkMaterials\ИОФС\l7_\l7_\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\WorkMaterials\ИОФС\l7_\l7_\obj\x86\Debug\l7_.Properties.Resources.resources
+E:\WorkMaterials\ИОФС\l7_\l7_\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\WorkMaterials\ИОФС\l7_\l7_\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\WorkMaterials\ИОФС\l7_\l7_\bin\Debug\l7_.exe
+E:\WorkMaterials\ИОФС\l7_\l7_\bin\Debug\l7_.pdb
+E:\WorkMaterials\ИОФС\l7_\l7_\obj\x86\Debug\l7_.exe
+E:\WorkMaterials\ИОФС\l7_\l7_\obj\x86\Debug\l7_.pdb

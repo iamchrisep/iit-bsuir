@@ -1,0 +1,9 @@
+c:\users\sneg\documents\visual studio 2013\Projects\Model\Lab1\bin\Debug\Lab1.exe.config
+c:\users\sneg\documents\visual studio 2013\Projects\Model\Lab1\bin\Debug\Lab1.exe
+c:\users\sneg\documents\visual studio 2013\Projects\Model\Lab1\bin\Debug\Lab1.pdb
+c:\users\sneg\documents\visual studio 2013\Projects\Model\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+c:\users\sneg\documents\visual studio 2013\Projects\Model\Lab1\obj\Debug\Lab1.Form1.resources
+c:\users\sneg\documents\visual studio 2013\Projects\Model\Lab1\obj\Debug\Lab1.Properties.Resources.resources
+c:\users\sneg\documents\visual studio 2013\Projects\Model\Lab1\obj\Debug\Lab1.csproj.GenerateResource.Cache
+c:\users\sneg\documents\visual studio 2013\Projects\Model\Lab1\obj\Debug\Lab1.exe
+c:\users\sneg\documents\visual studio 2013\Projects\Model\Lab1\obj\Debug\Lab1.pdb

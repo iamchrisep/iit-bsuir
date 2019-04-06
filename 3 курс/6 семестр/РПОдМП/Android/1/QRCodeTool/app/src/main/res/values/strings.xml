@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">QRCode</string>
+    <string name="encode_caption">Введите текст:</string>
+    <string name="btn_encode_caption">Генерация</string>
+    <string name="btn_decode_caption">Распознавание</string>
+    <string name="scan_result_label">Last scan result: </string>
+    <string name="scan_process_label">Сканирование...</string>
+    <string name="copy_text">Скопировать текст</string>
+    <string name="open_url">Открыть ссылку</string>
+</resources>

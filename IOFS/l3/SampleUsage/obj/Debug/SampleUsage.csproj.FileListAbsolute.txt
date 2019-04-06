@@ -1,0 +1,16 @@
+C:\Users\Chaplain\Desktop\B-Tree\SampleUsage\bin\Debug\ConsoleApplication1.exe
+C:\Users\Chaplain\Desktop\B-Tree\SampleUsage\bin\Debug\ConsoleApplication1.pdb
+C:\Users\Chaplain\Desktop\B-Tree\SampleUsage\bin\Debug\Sop.dll
+C:\Users\Chaplain\Desktop\B-Tree\SampleUsage\bin\Debug\Sop.pdb
+C:\Users\Chaplain\Desktop\B-Tree\SampleUsage\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Chaplain\Desktop\B-Tree\SampleUsage\obj\Debug\ConsoleApplication1.exe
+C:\Users\Chaplain\Desktop\B-Tree\SampleUsage\obj\Debug\ConsoleApplication1.pdb
+E:\WorkMaterials\ИОФС\B-Tree\SampleUsage\obj\Debug\ConsoleApplication1.exe
+E:\WorkMaterials\ИОФС\B-Tree\SampleUsage\obj\Debug\ConsoleApplication1.pdb
+E:\WorkMaterials\ИОФС\B-Tree\SampleUsage\bin\Debug\ConsoleApplication1.exe
+E:\WorkMaterials\ИОФС\B-Tree\SampleUsage\bin\Debug\ConsoleApplication1.pdb
+E:\WorkMaterials\ИОФС\B-Tree\SampleUsage\bin\Debug\Sop.dll
+E:\WorkMaterials\ИОФС\B-Tree\SampleUsage\bin\Debug\Sop.pdb
+E:\WorkMaterials\ИОФС\B-Tree\SampleUsage\obj\Debug\ResolveAssemblyReference.cache
+E:\WorkMaterials\ИОФС\l3\SampleUsage\obj\Debug\ConsoleApplication1.exe
+E:\WorkMaterials\ИОФС\l3\SampleUsage\obj\Debug\ConsoleApplication1.pdb

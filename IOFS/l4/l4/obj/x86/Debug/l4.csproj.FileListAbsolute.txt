@@ -1,0 +1,9 @@
+E:\WorkMaterials\ИОФС\l4\l4\obj\x86\Debug\l6.exe
+E:\WorkMaterials\ИОФС\l4\l4\obj\x86\Debug\l6.pdb
+E:\WorkMaterials\ИОФС\l4\l4\bin\Debug\l6.exe
+E:\WorkMaterials\ИОФС\l4\l4\bin\Debug\l6.pdb
+E:\WorkMaterials\ИОФС\l4\l4\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\WorkMaterials\ИОФС\l4\l4\obj\x86\Debug\l6.Properties.Resources.resources
+E:\WorkMaterials\ИОФС\l4\l4\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\WorkMaterials\ИОФС\l4\l4\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\WorkMaterials\ИОФС\l4\l4\obj\x86\Debug\l4.Archiving.resources

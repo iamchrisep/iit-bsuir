@@ -1,0 +1,18 @@
+D:\Renata\zad2\l7\bin\Debug\l7.exe.config
+D:\Renata\zad2\l7\bin\Debug\l7.exe
+D:\Renata\zad2\l7\bin\Debug\l7.pdb
+D:\Renata\zad2\l7\obj\Debug\l7.csprojResolveAssemblyReference.cache
+D:\Renata\zad2\l7\obj\Debug\l7.Form1.resources
+D:\Renata\zad2\l7\obj\Debug\l7.Properties.Resources.resources
+D:\Renata\zad2\l7\obj\Debug\l7.csproj.GenerateResource.Cache
+D:\Renata\zad2\l7\obj\Debug\l7.exe
+D:\Renata\zad2\l7\obj\Debug\l7.pdb
+D:\Сессия\Основы ERP-систем\zad2\l7\bin\Debug\l7.exe.config
+D:\Сессия\Основы ERP-систем\zad2\l7\obj\Debug\l7.exe
+D:\Сессия\Основы ERP-систем\zad2\l7\obj\Debug\l7.pdb
+D:\Сессия\Основы ERP-систем\zad2\l7\bin\Debug\l7.exe
+D:\Сессия\Основы ERP-систем\zad2\l7\bin\Debug\l7.pdb
+D:\Сессия\Основы ERP-систем\zad2\l7\obj\Debug\l7.csprojResolveAssemblyReference.cache
+D:\Сессия\Основы ERP-систем\zad2\l7\obj\Debug\l7.Form1.resources
+D:\Сессия\Основы ERP-систем\zad2\l7\obj\Debug\l7.Properties.Resources.resources
+D:\Сессия\Основы ERP-систем\zad2\l7\obj\Debug\l7.csproj.GenerateResource.Cache

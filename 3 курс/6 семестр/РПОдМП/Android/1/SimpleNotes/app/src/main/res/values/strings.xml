@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lis Notes</string>
+    <string name="action_about">About</string>
+    <string name="action_search">Поиск</string>
+
+    <string name="list_empty">Нет текущих заметок</string>
+    <string name="action_insert">Добавить</string>
+    <string name="action_delete">Удалить</string>
+    <string name="action_confirm">Применить</string>
+    <string name="note_title">Заголовок</string>
+    <string name="note_description">Описание</string>
+    <string name="about_text">ЛР1. Лисовский. 581072</string>
+</resources>
